@@ -1,87 +1,39 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=10b981&height=250&section=header&text=Venkata%20Sri%20Sai%20Ramesh%20Murala&fontSize=40&fontAlignY=38&desc=Machine%20Learning%20Engineer%20%7C%20Data%20Scientist&descAlignY=58&descAlign=62" />
-</div>
+# Ramesh Murala
 
-<div align="center">
-  
-  [![Portfolio](https://img.shields.io/badge/🌐_Visit_My_Portfolio_Website-10b981?style=for-the-badge&logoColor=white)](https://ramesh-murala.github.io/)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/venkatasrisairameshmurala/)
-  [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:venkatasrisairameshmurala@gmail.com)
+**AI / Machine Learning Engineer · Python APIs · Retrieval · ML Systems**
 
-  <br />
+I build services around machine learning and language models, with a focus on validation, retrieval quality, failure handling, and cloud deployment. My background spans backend engineering, applied ML, and AWS infrastructure.
 
-  ![Profile Views](https://komarev.com/ghpvc/?username=Ramesh-Murala&label=Profile%20Views&color=0e75b6&style=flat)
-</div>
+This GitHub collects independent projects and reproducible experiments. Each repository separates implemented behavior from deployment work and states what its evaluation does—and does not—measure.
 
-<br />
+[Portfolio](https://ramesh-portfolio-steel.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/venkatasrisairameshmurala/) · [Email](mailto:venkatasrisairameshmurala@gmail.com)
 
-## 💫 About Me
+## Selected engineering projects
 
-**Machine Learning Engineer with 4+ years of experience** designing data-driven solutions across enterprise and technology environments. Strong expertise in machine learning algorithms, NLP, Large Language Models (LLMs), and cloud deployment. Passionate about solving complex problems through Retrieval-Augmented Generation (RAG), predictive modeling, and scalable MLOps architectures.
+| Project | Problem and implementation | Evidence to inspect |
+|---|---|---|
+| [Structured Output Agent](https://github.com/Ramesh-Murala/Structured-Output-Agent) | Make LLM responses usable by typed APIs: Pydantic validation, corrective retries, a shared deadline, and metadata-only failure logs | API/failure-path tests, CI, scripted fault-injection evaluation |
+| [RAG Agent with Citation Validation](https://github.com/Ramesh-Murala/RAG-Agent-with-Citation) | Check retrieved-source attribution and quoted evidence; abstain on missing context and retry invalid citations | Recall@3/MRR@3 fixture, citation-integrity tests, documented semantic limitations |
+| [Healthcare MLOps Simulation](https://github.com/Ramesh-Murala/healthcare-mlops-pipeline) | Connect synthetic data generation, model comparison, MLflow tracking, FastAPI serving, and batch scoring | Reproducible training, synthetic evaluation, API tests, container checks |
 
-- 🔭 Currently building **End-to-End ML SaaS Projects & RAG applications**
-- 🌱 Deepening expertise in **Generative AI, Large Language Models, and MLOps**
-- 👯 Open to collaborate on **Open-source ML, NLP, and Cloud Architecture projects**
-- 💬 Ask me about **Python, AWS SageMaker, Vector Databases, and Recommendation Systems**
-- 📫 Reach me at **venkatasrisairameshmurala@gmail.com**
-- ⚡ Fun fact: **I spend 80% of my time cleaning data and 20% of my time complaining about cleaning data!**
+## How I approach AI engineering
 
-## 💻 Tech Stack
+- Define the API contract and failure behavior before adding a model.
+- Compare against a simple baseline and keep evaluation inputs reproducible.
+- Separate schema correctness, retrieval relevance, and factual accuracy.
+- Make unavailable dependencies and exhausted retries visible to callers.
+- Document design trade-offs and the work required before deployment.
 
-### Programming Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+## Technical focus
 
-### ML/AI Frameworks
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+**Application engineering:** Python, SQL, FastAPI, Pydantic, automated testing, Docker, GitHub Actions.
 
-### Data Analysis & Visualization
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+**AI and ML:** retrieval-augmented generation, structured output, NLP, scikit-learn, evaluation, MLflow.
 
-### Cloud, DevOps & Databases
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+**Cloud experience:** AWS inference services and data infrastructure, including SageMaker, ECS, Lambda, S3, and CloudWatch. The public projects above are local reference implementations; their READMEs describe their deployment boundaries.
 
----
+## Additional work
 
-## 📊 GitHub Statistics
+[ML application prototypes](https://github.com/Ramesh-Murala/ml-saas-portfolio) explore API/frontend integration with explicitly documented mocks and baselines. They are supporting examples, separate from the selected projects above.
 
-<div align="center">
-  
-![GitHub Stats](https://github-readme-stats-eight-theta.vercel.app/api?username=Ramesh-Murala&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=10b981&icon_color=10b981&text_color=ffffff)
-
-![Top Languages](https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Ramesh-Murala&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=10b981&text_color=ffffff)
-
-![GitHub Streak](https://streak-stats.demolab.com/?user=Ramesh-Murala&theme=dark&hide_border=true&background=0d1117&stroke=10b981&ring=10b981&fire=10b981&currStreakNum=ffffff&currStreakLabel=10b981&sideNums=ffffff&sideLabels=ffffff&dates=ffffff)
-
-</div>
-
-<br />
-
-## 📈 Contribution Activity
-
-<div align="center">
-
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Ramesh-Murala&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=10b981&line=10b981&point=06b6d4)
-
-</div>
-
----
-
-<div align="center">
-  
-### 🌟 Thank you for visiting my profile! 🌟
-
-*"Turning data into actionable intelligence, one algorithm at a time"*
-
-![Coding Animation](https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)
-
-</div>
+I’m interested in AI engineering and ML platform roles where reliable backend systems and measurable model behavior matter.
