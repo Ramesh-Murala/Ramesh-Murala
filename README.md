@@ -12,7 +12,7 @@ This GitHub collects independent projects and reproducible experiments. Each rep
 
 | Project | Problem and implementation | Evidence to inspect |
 |---|---|---|
-| [Structured Output Agent](https://github.com/Ramesh-Murala/Structured-Output-Agent) | Make LLM responses usable by typed APIs: Pydantic validation, corrective retries, a shared deadline, and metadata-only failure logs | API/failure-path tests, CI, scripted fault-injection evaluation |
+| [Structured Output Agent](https://github.com/Ramesh-Murala/Structured-Output-Agent) | Make LLM responses usable by typed APIs: Pydantic validation, corrective retries, a shared deadline, and metadata-only failure logs | [Try live demo](https://structured-output-agent-demo.rameshmurala10.chatgpt.site/), API/failure-path tests, CI, scripted fault-injection evaluation |
 | [RAG Agent with Citation Validation](https://github.com/Ramesh-Murala/RAG-Agent-with-Citation) | Check retrieved-source attribution and quoted evidence; abstain on missing context and retry invalid citations | Recall@3/MRR@3 fixture, citation-integrity tests, documented semantic limitations |
 | [Healthcare MLOps Simulation](https://github.com/Ramesh-Murala/healthcare-mlops-pipeline) | Connect synthetic data generation, model comparison, MLflow tracking, FastAPI serving, and batch scoring | Reproducible training, synthetic evaluation, API tests, container checks |
 
